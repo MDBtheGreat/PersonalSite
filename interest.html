@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Interests - My Personal Website</title>
     <style>
-        /* Copy the same style from index.html */
+        /* Previous styles remain the same */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -42,6 +42,18 @@
             overflow: hidden;
             padding: 20px;
         }
+        
+        /* New styles for images */
+        .interest-item {
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .interest-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -58,20 +70,21 @@
     </nav>
     <div class="container">
         <h2>My Interests</h2>
-        <ul>
-            <li>
-                <h3>Interest 1</h3>
-                <p>Description of your first interest.</p>
-            </li>
-            <li>
-                <h3>Interest 2</h3>
-                <p>Description of your second interest.</p>
-            </li>
-            <li>
-                <h3>Interest 3</h3>
-                <p>Description of your third interest.</p>
-            </li>
-        </ul>
+        <div class="interest-item">
+            <h3>Interest 1</h3>
+            <img src="Screenshot 2024-09-12 at 6.24.49 PM.png" class="interest-image">
+            <p>Basketball</p>
+        </div>
+        <div class="interest-item">
+            <h3>Interest 2</h3>
+            <img src="Screenshot 2024-09-12 at 6.26.09 PM.png" class="interest-image">
+            <p>Football</p>
+        </div>
+        <div class="interest-item">
+            <h3>Interest 3</h3>
+            <img src="Screenshot 2024-09-12 at 6.27.59 PM.png" class="interest-image">
+            <p>Gaming</p>
+        </div>
     </div>
 </body>
 </html>
