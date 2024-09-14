@@ -1,88 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Interests - My Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #35424a;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        nav {
-            background-color: #003366;
-            color: white;
-            padding: 0.5rem;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        .interest-item {
-            margin-bottom: 30px;
-            overflow: hidden;
-        }
-        .interest-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>My Interests</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html"><b>Home</b></a></li>
-            <li><a href="about.html"><b>About Me</b></a></li>
-            <li><a href="interest.html"><b>My Interests</b></a></li>
-            <li><a href="contact.html"><b>Contacts</b></a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <h2>My Interests</h2>
+<div>
+    <h1>My Interests</h1>
+</div>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="interest.html">My Interests</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>My Interests</h2>
+    
+    <div class="interest-row">
         <div class="interest-item">
-            <h3>Interest 1</h3>
-            <img src="basketball.png" alt="Basketball" class="interest-image">
-            <p>Basketball</p>
-        </div>
-        <div class="interest-item">
-            <h3>Interest 2</h3>
-            <img src="football.png" alt="Football" class="interest-image">
-            <p>Football</p>
-        </div>
-        <div class="interest-item">
-            <h3>Interest 3</h3>
-            <img src="gaming.png" alt="Gaming" class="interest-image">
-            <p>Gaming</p>
+            <h3>Sports</h3>
+            <div class="interest-images">
+                <img src="basketball.png" alt="Basketball" class="interest-image">
+                <img src="football.png" alt="Football" class="interest-image">
+            </div>
         </div>
     </div>
-</body>
-</html>
+    
+    <div class="interest-row">
+        <div class="interest-item">
+            <h3>Gaming</h3>
+            <img src="gaming.png" alt="Gaming" class="interest-image">
+        </div>
+    </div>
+</div>
