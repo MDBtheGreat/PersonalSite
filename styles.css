@@ -54,8 +54,10 @@ h1, h2 {
     text-align: center;
 }
 
-.interest-section h3 {
+.interest-heading {
+    text-align: center;
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .interest-images {
@@ -67,8 +69,8 @@ h1, h2 {
 }
 
 .interest-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -99,7 +101,7 @@ a:hover {
     }
     
     .interest-image {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 }
