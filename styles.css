@@ -56,25 +56,31 @@ p {
 /* Interest Items */
 .interest-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
     margin-bottom: 30px;
 }
 
 .interest-item {
     text-align: center;
+    max-width: 300px;
 }
 
 .interest-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 15px;
 }
 
 .interest-image {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 
 /* Contact Links */
@@ -102,8 +108,7 @@ a:hover {
         width: 95%;
     }
     
-    .interest-images {
-        flex-direction: column;
-        align-items: center;
+    .interest-item {
+        max-width: 100%;
     }
 }
