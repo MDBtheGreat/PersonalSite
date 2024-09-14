@@ -42,24 +42,20 @@ nav ul li a {
 }
 
 /* Header Styles */
-h1 {
+h1, h2 {
     color: #333;
     text-align: center;
     padding: 20px 0;
 }
 
-/* Content Styles */
-p {
-    margin-bottom: 20px;
-}
-
-/* Interest Items */
-.interest-row {
+/* Interest Styles */
+.interest-section {
     margin-bottom: 40px;
+    text-align: center;
 }
 
-.interest-item {
-    text-align: center;
+.interest-section h3 {
+    margin-bottom: 20px;
 }
 
 .interest-images {
@@ -71,15 +67,10 @@ p {
 }
 
 .interest-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 8px;
-}
-
-.gaming-image {
-    width: 350px;
-    height: 350px;
+    border-radius: 10px;
 }
 
 /* Contact Links */
@@ -107,9 +98,8 @@ a:hover {
         width: 95%;
     }
     
-    .interest-image, .gaming-image {
-        width: 100%;
-        height: auto;
-        max-width: 300px;
+    .interest-image {
+        width: 150px;
+        height: 150px;
     }
 }
