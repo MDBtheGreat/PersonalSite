@@ -1,26 +1,26 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.6; /* this is the line height between text */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000; /* #f4f4f4 is a light gray color */
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
+    width: 80%; /* we do 80% so that the container is not too wide on large screens */
+    max-width: 1200px; /* this is the maximum width of the container */
     margin: auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* this is the shadow around the container */
     border-radius: 5px;
 }
 
 /* Navigation Styles */
 nav {
-    background-color: #333;
-    color: white;
+    background-color: white; /* this is the navigation bar color */
+    color: white; /* this is the navigation text color */
     padding: 10px 0;
 }
 
@@ -44,7 +44,7 @@ nav ul li a {
 
 /* Header Styles */
 h1, h2 {
-    color: #a51111;
+    color: #000000; /* this is the header text color, applied to each tab */
     text-align: center;
     padding: 20px 0;
 }
@@ -91,7 +91,7 @@ a {
 }
 
 a:hover {
-    text-decoration: blink; /* blink, underline */
+    text-decoration: underline;
 }
 
 /* Responsive Design */
