@@ -44,7 +44,7 @@ nav ul li a {
 
 /* Header Styles */
 h1, h2 {
-    color: #333;
+    color: #a51111;
     text-align: center;
     padding: 20px 0;
 }
@@ -91,7 +91,7 @@ a {
 }
 
 a:hover {
-    text-decoration: overline; /* overline, blink */
+    text-decoration: blink; /* blink, underline */
 }
 
 /* Responsive Design */
